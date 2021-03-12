@@ -1,0 +1,175 @@
+/*Global*/
+
+body{
+	font-family:"Microsoft JhengHei UI Light" , "Calibri (Body)";
+}
+
+
+/*Index Page*/
+
+#index_nav{
+	display: block;
+}
+
+#index_nav a{
+	color: #000000;
+	font-weight: bold;
+}
+
+#index_nav .navbar-nav{
+	display: block;
+}
+
+#my_topic{
+	font-weight: 500;
+	padding: 2%;
+}
+
+#navbarNav a:hover{
+	color: #ffffff;
+}
+
+
+
+
+
+
+/*Categories*/
+.navbar-brand {
+	font-family: Broadway;
+}
+
+.card {
+	color: #ffffff;
+	background-color: #000000 ;
+	margin-bottom: 5%;
+}
+
+.card:hover {
+	box-shadow: 2px 2px 3px 3px #000000,
+				-2px -2px 3px 3px #000000; 
+}
+
+.card .card-body{
+	text-align: center;
+}
+
+.card .card-body button:hover{
+	font-weight: bold;
+}
+
+.card .card-body button img{
+	width: 32px;
+	height: 32px;
+}
+
+.row #categories{
+	font-weight: 400;
+	font-size:2.0rem;
+}
+
+.my_form{
+	margin:0;
+	padding: 10px 10% 30px 10%;
+	color: #ffffff;
+	background-color: #000000;
+}
+
+.my_form .card{
+	color:#ffffff;
+	max-width: 400px;
+}
+
+.my_form div{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.my_form .social img{
+	width: 40px;
+	height: 40px;
+}
+
+.my_form .social img:hover{
+	width: 42px;
+	height: 42px;
+}
+
+footer{
+	background-color: #000000;
+	padding: 30px;
+	color: #ffffff;
+}
+
+
+/*For English Movies*/
+
+#movie_card:hover{
+	box-shadow: 2px 2px 3px 3px #DA3F3F  ,
+				-2px -2px 3px 3px #DA3F3F ;
+}
+
+#movie_card a:hover{
+	font-weight: bold;
+}
+
+#movie_pagination a:hover{
+	border:solid 2px #000000; /*Applies to all pagination bars*/
+}
+
+
+/*For English TV Series*/
+
+#tv_card:hover {
+	box-shadow: 2px 2px 3px 3px #F3D724,
+				-2px -2px 3px 3px #F3D724;
+}
+
+#tv_card a:hover{
+	font-weight: bold;
+}
+
+
+/*For Hindi Movies*/
+
+#movie_card_hn:hover{
+	box-shadow: 2px 2px 3px 3px #FF7C00 ,
+				-2px -2px 3px 3px #FF7C00;
+}
+
+#movie_card_hn a:hover{
+	font-weight: bold;
+}
+
+#button_hn{
+	background-color: #FF7C00;
+	border: none;
+}
+
+#button_hn:hover{
+	background-color: rgba(255, 124, 0, 0.8);
+}
+
+/*For K-Dramas*/
+
+#tv_card_kr:hover{
+	box-shadow: 2px 2px 3px 3px #A800BB ,
+				-2px -2px 3px 3px #A800BB;
+}
+
+#button_kr{
+	background-color: #A800BB;
+	border: none;
+}
+
+#button_kr:hover{
+	background-color: rgba(168, 0, 187, 0.8);
+}
+
+#tv_card_kr a:hover{
+	font-weight: bold;
+}
+
+#tv_card_kr a{
+	color: #ffffff;
+}
